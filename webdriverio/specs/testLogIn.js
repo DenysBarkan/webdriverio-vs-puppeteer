@@ -2,9 +2,9 @@
 
 import assert from 'assert';
 import LoginPage from '../pageobjects/login.page';
-import dataLogIn from '../data/login.json';
+import dataLogIn from '../../data/login.json';
 
-suite('Account - Log in to a site', () => {
+suite('Logging in to a site', () => {
    test('Test the Login with correct credentials', () => {
         LoginPage.open('login');
         LoginPage.logIn(dataLogIn.user_valid.username, dataLogIn.user_valid.password);
