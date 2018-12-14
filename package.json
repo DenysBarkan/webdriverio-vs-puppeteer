@@ -1,0 +1,40 @@
+{
+  "name": "webdriverio-vs-puppeteer",
+  "version": "1.0.0",
+  "description": "compare webdriverio using selenium with puppeteer",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:q-leap-io/webdriverio-vs-puppeteer.git"
+  },
+  "author": "q-leap.io",
+  "license": "ISC",
+  "scripts": {
+    "webdriverio": "./node_modules/.bin/wdio ./webdriverio/wdio.conf.js",
+    "puppeteer": "jest --verbose true"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.8.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "parallel-mocha": "0.0.7",
+    "selenium-standalone": "^6.15.4",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.14.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+  
+}

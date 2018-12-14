@@ -1,0 +1,14 @@
+{
+    "user_valid": {
+        "username": "user@phptravels.com",
+        "password": "demouser"
+    },
+    "user_invalid_username": {
+        "username": "wrong@phptravels.com",
+        "password": "demouser"
+    },
+    "user_invalid_password": {
+        "username": "user@phptravels.com",
+        "password": "wrong"
+    }
+}
