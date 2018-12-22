@@ -11,6 +11,7 @@
   "license": "ISC",
   "scripts": {
     "webdriverio": "./node_modules/.bin/wdio ./webdriverio/wdio.conf.js",
+    "webdriverio-headless": "./node_modules/.bin/wdio ./webdriverio/wdio-headless.conf.js",
     "puppeteer": "jest --verbose true"
   },
   "dependencies": {

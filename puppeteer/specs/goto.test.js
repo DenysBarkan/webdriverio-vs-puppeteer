@@ -23,7 +23,7 @@ describe('Going to a site', () => {
         try {
             await page.goto('http://webdriver.io');
             const title = await page.title();
-            assert.equal(title, 'WebdriverIO - WebDriver bindings for Node.js');
+            assert.equal(title, 'WebdriverIO · Next-gen WebDriver test framework for Node.js');
         } catch (error) {
             console.log(error);
         }
